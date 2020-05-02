@@ -1,0 +1,17 @@
+[package]
+name = "mad_bench"
+version = "0.1.0"
+authors = ["Mendess2526 <pedro.mendes.26@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "bit_array"
+harness = false
+
